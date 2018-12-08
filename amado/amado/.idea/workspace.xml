@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9f5b8e8-233f-4396-9f63-5b51fd0671c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/otherSeller.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SpringDemo-CSE338-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringDemo-CSE338-master/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SpringDemo-CSE338-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringDemo-CSE338-master/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SpringDemo-CSE338-master/SpringDemo-CSE338-master/src/main/kotlin/com/example/demo/StudentRouter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringDemo-CSE338-master/SpringDemo-CSE338-master/src/main/kotlin/com/example/demo/StudentRouter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/checkout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="148" column="87" selection-start-line="148" selection-start-column="87" selection-end-line="148" selection-end-column="87" />
+            <state relative-caret-position="18">
+              <caret line="130" column="42" lean-forward="true" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -155,7 +150,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544277624207" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544278178401" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -199,12 +194,12 @@
       <workItem from="1544194636090" duration="20000" />
       <workItem from="1544195981421" duration="6000" />
       <workItem from="1544268169797" duration="1599000" />
-      <workItem from="1544272305725" duration="3972000" />
+      <workItem from="1544272305725" duration="4417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14353000" />
+    <option name="totallyTimeSpent" value="14798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -227,7 +222,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -307,8 +302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/checkout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="148" column="87" selection-start-line="148" selection-start-column="87" selection-end-line="148" selection-end-column="87" />
+        <state relative-caret-position="18">
+          <caret line="130" column="42" lean-forward="true" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
         </state>
       </provider>
     </entry>
