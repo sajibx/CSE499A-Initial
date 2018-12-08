@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>Amado - Furniture Ecommerce Template | Checkout</title>
+    <title>Amado - Furniture Ecommerce Template | Shop</title>
 
     <!-- Favicon  -->
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -70,17 +70,17 @@
         <nav class="amado-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
+                <li class="active"><a href="shop.html">Shop</a></li>
                 <li><a href="product-details.html">Product</a></li>
                 <li hidden><a href="cart.html">Cart</a></li>
-                <li class="active"><a href="checkout.html">Profile</a></li>
+                <li><a href="checkout.html">Profile</a></li>
                 <li><a href="index.html">Signout</a></li>
             </ul>
         </nav>
         <!-- Button Group -->
-        <div class="amado-btn-group mt-30 mb-100" hidden>
+        <div class="amado-btn-group mt-30 mb-100">
             <a href="#" class="btn amado-btn mb-15">My Items</a>
-            <a href="#" class="btn amado-btn active">Other Seller</a>
+            <a href="#" class="btn amado-btn active" hidden>Other Seller</a>
         </div>
         <!-- Cart Menu -->
         <div class="cart-fav-search mb-100" hidden>
@@ -88,10 +88,6 @@
             <a href="#" class="fav-nav"><img src="img/core-img/favorites.png" alt=""> Favourite</a>
             <a href="#" class="search-nav"><img src="img/core-img/search.png" alt=""> Search</a>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
         <!-- Social Button -->
         <div class="social-info d-flex justify-content-between">
             <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
@@ -102,63 +98,153 @@
     </header>
     <!-- Header Area End -->
 
-    <div class="cart-table-area section-padding-100">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-lg-8">
-                    <div class="checkout_details_area mt-50 clearfix">
+    <div class="shop_sidebar_area">
 
-                        <div class="cart-title">
-                            <h2>Profile</h2>
-                        </div>
+        <!-- ##### Single Widget ##### -->
+        <div class="widget catagory mb-50" hidden>
+            <!-- Widget Title -->
+            <h6 class="widget-title mb-30">Catagories</h6>
 
-                        <form action="#" method="post">
-                            <div class="row">
-
-                                <div class="col-12 mb-3">
-                                    <input class="form-control" id="full name" placeholder="Full Name"> <br>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <input class="form-control" id="phoneN" placeholder="Phone Number"> <br>
-                                </div>
-                                <div class="col-12 mb-3">
-                                    <input class="form-control" id="addr" placeholder="Address"> <br>
-                                </div>
-                                <div class="col-12 mb-3">
-                                    <input class="form-control" id="street_addr" placeholder="Street Address"> <br>
-                                </div>
-                                <div class="col-12 mb-3">
-                                    <input class="form-control" id="city" placeholder="City"> <br>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <input class="form-control" id="zipCode" placeholder="Zip Code"> <br>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <input class="form-control" id="info" placeholder="Your Id"> <br>
-                                </div>
-
-                                <div class="col-12">
+            <!--  Catagories  -->
+            <div class="catagories-menu">
+                <ul>
+                    <li class="active"><a href="#">Chairs</a></li>
+                    <li><a href="#">Beds</a></li>
+                    <li><a href="#">Accesories</a></li>
+                    <li><a href="#">Furniture</a></li>
+                    <li><a href="#">Home Deco</a></li>
+                    <li><a href="#">Dressings</a></li>
+                    <li><a href="#">Tables</a></li>
+                </ul>
+            </div>
+        </div>
 
 
-                                </div>
 
-                            </div>
-                        </form>
+
+        <!-- ##### Single Widget ##### -->
+        <div class="widget price mb-50" hidden>
+            <!-- Widget Title -->
+            <h6 class="widget-title mb-30">Price</h6>
+
+            <div class="widget-desc">
+                <div class="slider-range">
+                    <div data-min="10" data-max="1000" data-unit="$" class="slider-range-price ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" data-value-min="10" data-value-max="1000" data-label-result="">
+                        <div class="ui-slider-range ui-widget-header ui-corner-all"></div>
+                        <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
+                        <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
                     </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="cart-summary" >
-                        <p>Choose you picture</p>
-                        <input type="file" id="myFile">
-                    </div>
-                    <div class="cart-btn mt-100">
-                        <a><button class="btn amado-btn w-100" id="signUp">SignUp</button></a>
-                    </div>
+                    <div class="range-price">$10 - $1000</div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+
+    <div class="amado_product_area section-padding-100">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="product-topbar d-xl-flex align-items-end justify-content-between">
+                        <!-- Total Products -->
+                        <div class="total-products" >
+                            <p>Other Sellers</p>
+                            <div class="view d-flex">
+                                <a href="#" hidden><i class="fa fa-th-large" aria-hidden="true"></i></a>
+                                <a href="#" hidden><i class="fa fa-bars" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <!-- Sorting -->
+                        <div class="product-sorting d-flex">
+                            <div class="sort-by-date d-flex align-items-center mr-15">
+                                <p hidden>Sort by</p>
+                                <form action="#" method="get" hidden>
+                                    <select name="select" id="sortBydate">
+                                        <option value="value">Date</option>
+                                        <option value="value">Newest</option>
+                                        <option value="value">Popular</option>
+                                    </select>
+                                </form>
+                            </div>
+                            <div class="view-product d-flex align-items-center">
+                                <p hidden>View</p>
+                                <form action="#" method="get" hidden>
+                                    <select name="select" id="viewProduct">
+                                        <option value="value">12</option>
+                                        <option value="value">24</option>
+                                        <option value="value">48</option>
+                                        <option value="value">96</option>
+                                    </select>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!--this will use json like append feature ----------------------------------------------------------------- Single Product Area -->
+
+                <!-- Single Product Area -->
+                <div class="col-12 col-sm-6 col-md-12 col-xl-6">
+                    <div class="single-product-wrapper">
+                        <!-- Product Image -->
+                        <div class="product-img">
+                            <img src="img/product-img/product6.jpg" alt="">
+                            <!-- Hover Thumb -->
+                            <img class="hover-img" src="img/product-img/product1.jpg" alt="">
+                        </div>
+
+                        <!-- Product Description -->
+                        <div class="product-description d-flex align-items-center justify-content-between">
+                            <!-- Product Meta Data -->
+                            <div class="product-meta-data">
+                                <div class="line"></div>
+                                <p class="product-price">$180</p>
+                                <a href="product-details.html">
+                                    <h6>Modern Chair</h6>
+                                </a>
+                            </div>
+                            <!-- Ratings & Cart -->
+                            <div class="ratings-cart text-right">
+                                <div class="ratings">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                <div class="cart">
+                                    <a href="cart.html" data-toggle="tooltip" data-placement="left" title="Add to Cart"><img src="img/core-img/cart.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--this will use json like append feature ----------------------------------------------------------------- Single Product Area -->
+
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <!-- Pagination -->
+                    <nav aria-label="navigation">
+                        <ul class="pagination justify-content-end mt-50">
+                            <li class="page-item active"><a class="page-link" href="#">01.</a></li>
+                            <li class="page-item"><a class="page-link" href="#">02.</a></li>
+                            <li class="page-item"><a class="page-link" href="#">03.</a></li>
+                            <li class="page-item"><a class="page-link" href="#">04.</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- ##### Main Content Wrapper End ##### -->
 
@@ -201,7 +287,7 @@
                     <!-- Copywrite Text -->
                     <p class="copywrite"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </div>
             </div>
             <!-- Single Widget Area -->
@@ -222,11 +308,11 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="product-details.html">Product</a>
                                     </li>
-                                    <li class="nav-item" hidden>
+                                    <li class="nav-item">
                                         <a class="nav-link" href="cart.html">Cart</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="checkout.html">Signout</a>
+                                        <a class="nav-link" href="checkout.html">Checkout</a>
                                     </li>
                                 </ul>
                             </div>
@@ -251,8 +337,5 @@
 <script src="js/active.js"></script>
 
 </body>
-<script>
-
-</script>
 
 </html>
